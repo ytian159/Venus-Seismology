@@ -1,0 +1,26 @@
+================== Overal Info ==============================
+date of report: 2021-01-26 23:47:32.844680
+input_hdf5: downloads_mseeds_processed_hdfs/SCRK.hdf5
+input_csv: downloads_mseeds_processed_hdfs/SCRK.csv
+input_model: EqT_model.h5
+output_dir: /Users/yuantian/Desktop/UAFwork/data_and_processing/Python/detections/SCRK_outputs
+================== Prediction Parameters =======================
+finished the prediction in:  0 hours and 3 minutes and 36.03 seconds 
+detected: 53 events.
+writting_probability_outputs: False
+loss_types: ['binary_crossentropy', 'binary_crossentropy', 'binary_crossentropy']
+loss_weights: [0.03, 0.4, 0.58]
+batch_size: 500
+================== Other Parameters =========================
+normalization_mode: std
+estimate uncertainty: False
+number of Monte Carlo sampling: 5
+detection_threshold: 0.3
+P_threshold: 0.1
+S_threshold: 0.1
+number_of_plots: 100
+use_multiprocessing: True
+gpuid: None
+gpu_limit: None
+keepPS: True
+spLimit: 60 seconds
